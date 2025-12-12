@@ -1,0 +1,114 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "PDF生成服务API",
+    "description": "用于生成职业规划PDF报告的API服务",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://110cd621.r7.cpolar.top",
+      "description": "生产服务器"
+    }
+  ],
+  "paths": {
+    "/generate_report": {
+      "post": {
+        "summary": "生成职业规划PDF报告",
+        "description": "根据提供的职业规划信息生成PDF报告",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "target_job": {
+                    "type": "string",
+                    "description": "目标岗位",
+                    "example": "前端开发工程师"
+                  },
+                  "matched_courses": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "已修相关课程",
+                    "example": ["计算机网络", "数据结构", "Web前端开发"]
+                  },
+                  "gap_skills": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "需自学技能",
+                    "example": ["React框架", "Node.js", "TypeScript"]
+                  },
+                  "advice": {
+                    "type": "string",
+                    "description": "职业发展建议",
+                    "example": "建议深入学习React生态，掌握TypeScript，多做实际项目积累经验。"
+                  }
+                },
+                "required": ["target_job", "matched_courses", "gap_skills", "advice"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "PDF生成成功",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean",
+                      "example": true
+                    },
+                    "message": {
+                      "type": "string",
+                      "example": "PDF生成成功"
+                    },
+                    "download_url": {
+                      "type": "string",
+                      "description": "生成的PDF文件下载URL",
+                      "example": "https://110cd621.r7.cpolar.top/static/report_前端开发工程师.pdf"
+                    },
+                    "filename": {
+                      "type": "string",
+                      "description": "生成的PDF文件名",
+                      "example": "report_前端开发工程师.pdf"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "服务器内部错误",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean",
+                      "example": false
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "错误信息",
+                      "example": "PDF生成失败: 字体文件不存在"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

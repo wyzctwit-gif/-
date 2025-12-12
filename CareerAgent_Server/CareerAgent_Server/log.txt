@@ -1,0 +1,84 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.0.2:5000
+Press CTRL+C to quit
+114.132.211.204 - - [07/Dec/2025 17:51:00] "POST /generate_report HTTP/1.1" 200 -
+211.97.3.135 - - [07/Dec/2025 17:51:21] "GET /static/reports/Career_Plan_20251207175100.pdf HTTP/1.1" 200 -
+167.94.146.60 - - [07/Dec/2025 19:25:46] code 400, message Bad request version ('À\x14À')
+167.94.146.60 - - [07/Dec/2025 19:25:46] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x99ãgf\x17&¢9®\x12¹¤h.\x09ÇFyCË-\x18\x86N\x10{\x84·O\x1b£ð \x96tzå\\òUÊ}¤©>¥*\x8e\x02ªóº\x12µ©É\x1ceÂ\x972¦:Í¼\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.146.60 - - [07/Dec/2025 19:25:50] "GET / HTTP/1.1" 404 -
+167.94.146.60 - - [07/Dec/2025 19:25:54] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Vs±N[}\x9c¥éõÆð\x13m\x1bX')
+167.94.146.60 - - [07/Dec/2025 19:25:54] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Vs±N[}\x9c¥éõÆð\x13m\x1bX\x1e\x8bùv½\x07{ÒQ¤ý×" HTTPStatus.BAD_REQUEST -
+213.209.143.72 - - [07/Dec/2025 21:27:46] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+213.209.143.72 - - [07/Dec/2025 21:27:46] "\x05\x02\x00\x02" HTTPStatus.BAD_REQUEST -
+213.209.143.72 - - [07/Dec/2025 21:28:19] code 400, message Bad request syntax ('\x04\x01\x00P\x01\x01\x01\x01\x00')
+213.209.143.72 - - [07/Dec/2025 21:28:19] "\x04\x01\x00P\x01\x01\x01\x01\x00" HTTPStatus.BAD_REQUEST -
+213.209.143.72 - - [07/Dec/2025 21:28:20] "CONNECT 1.1.1.1:443 HTTP/1.0" 404 -
+213.209.143.72 - - [07/Dec/2025 21:28:21] "CONNECT 213.209.143.72:80 HTTP/1.0" 404 -
+213.209.143.72 - - [07/Dec/2025 21:28:23] "CONNECT 213.209.143.72:80 HTTP/1.0" 404 -
+213.209.143.72 - - [07/Dec/2025 21:28:25] "CONNECT 213.209.143.72:80 HTTP/1.0" 404 -
+79.124.59.86 - - [08/Dec/2025 02:08:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.59.86 - - [08/Dec/2025 02:08:57] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+5.101.64.6 - - [08/Dec/2025 02:28:08] "GET / HTTP/1.0" 404 -
+35.187.31.145 - - [08/Dec/2025 02:29:18] "GET / HTTP/1.1" 404 -
+180.101.244.14 - - [08/Dec/2025 02:36:02] "GET / HTTP/1.1" 404 -
+220.196.160.73 - - [08/Dec/2025 02:36:12] "GET / HTTP/1.1" 404 -
+220.196.160.125 - - [08/Dec/2025 02:36:17] "GET / HTTP/1.1" 404 -
+198.235.24.205 - - [08/Dec/2025 04:27:22] "GET / HTTP/1.0" 404 -
+142.93.213.222 - - [08/Dec/2025 05:47:32] "GET / HTTP/1.1" 404 -
+142.93.213.222 - - [08/Dec/2025 05:47:33] "GET /favicon.ico HTTP/1.1" 404 -
+204.76.203.51 - - [08/Dec/2025 06:33:50] "GET http://azenv.net/ HTTP/1.1" 404 -
+204.76.203.51 - - [08/Dec/2025 06:33:51] "CONNECT dnspod.qcloud.com:443 HTTP/1.1" 404 -
+147.185.132.31 - - [08/Dec/2025 07:07:22] "GET / HTTP/1.1" 404 -
+178.159.37.112 - - [08/Dec/2025 09:55:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.112 - - [08/Dec/2025 09:55:54] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+204.76.203.51 - - [08/Dec/2025 10:41:14] "GET http://azenv.net/ HTTP/1.1" 404 -
+204.76.203.51 - - [08/Dec/2025 10:41:16] "CONNECT dnspod.qcloud.com:443 HTTP/1.1" 404 -
+46.161.50.108 - - [08/Dec/2025 11:19:52] code 400, message Bad request syntax ('\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03j´')
+46.161.50.108 - - [08/Dec/2025 11:19:52] "\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03j´" HTTPStatus.BAD_REQUEST -
+46.161.50.108 - - [08/Dec/2025 11:19:52] "GET /aaa9 HTTP/1.1" 404 -
+46.161.50.108 - - [08/Dec/2025 11:19:53] code 400, message Bad request version ('À\x13À')
+46.161.50.108 - - [08/Dec/2025 11:19:53] "\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03á\x19\x815ò\x86s©G\x8b4 !ÏÂú\x9e\x85\x80v>z,QS\x15¿ð\x02ò\x7fo \x8bÇ­\x0d»ü:TqÚ\x07\x9a¸dm\x11\x05Ûoò&ò\x13çD¢f×Fb\x1a\x98\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+46.161.50.108 - - [08/Dec/2025 11:19:53] "GET /aab9 HTTP/1.1" 404 -
+220.196.160.151 - - [08/Dec/2025 11:22:43] "GET /aab9 HTTP/1.1" 404 -
+220.196.160.65 - - [08/Dec/2025 11:26:20] "GET /aaa9 HTTP/1.1" 404 -
+204.76.203.51 - - [08/Dec/2025 12:34:49] "GET http://azenv.net/ HTTP/1.1" 404 -
+204.76.203.51 - - [08/Dec/2025 12:34:51] "CONNECT dnspod.qcloud.com:443 HTTP/1.1" 404 -
+176.117.107.96 - - [08/Dec/2025 12:42:00] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+176.117.107.96 - - [08/Dec/2025 12:42:00] "\x05\x02\x00\x02" HTTPStatus.BAD_REQUEST -
+176.117.107.96 - - [08/Dec/2025 12:42:35] code 400, message Bad request syntax ('\x04\x01\x00P\x01\x01\x01\x01\x00')
+176.117.107.96 - - [08/Dec/2025 12:42:35] "\x04\x01\x00P\x01\x01\x01\x01\x00" HTTPStatus.BAD_REQUEST -
+176.117.107.96 - - [08/Dec/2025 12:42:40] "CONNECT 1.1.1.1:443 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:42:44] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:42:50] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:42:59] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:04] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:11] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:17] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:24] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:30] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:36] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:42] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:48] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:43:55] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:44:01] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:44:08] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+176.117.107.96 - - [08/Dec/2025 12:44:14] "CONNECT 176.117.107.96:80 HTTP/1.0" 404 -
+178.159.37.112 - - [08/Dec/2025 13:05:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.112 - - [08/Dec/2025 13:05:24] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+211.97.3.135 - - [08/Dec/2025 13:30:12] "GET /view_tree?job=测试岗位&skills=Python,数据分析&courses=机器学习 HTTP/1.1" 404 -
+211.97.3.135 - - [08/Dec/2025 13:30:12] "GET /favicon.ico HTTP/1.1" 404 -
+114.132.211.99 - - [08/Dec/2025 13:32:45] "POST /generate_report HTTP/1.1" 200 -
+211.97.3.135 - - [08/Dec/2025 13:33:14] "GET /static/reports/Career_Plan_20251208133245.pdf HTTP/1.1" 200 -
+211.97.3.135 - - [08/Dec/2025 14:04:29] "GET /favicon.ico HTTP/1.1" 404 -
+167.172.36.184 - - [08/Dec/2025 14:05:06] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03J¾¬Þ')
+167.172.36.184 - - [08/Dec/2025 14:05:26] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03J¾¬Þ" HTTPStatus.BAD_REQUEST -
+167.172.36.184 - - [08/Dec/2025 14:05:42] code 400, message Bad request version ('À\x14À')
+167.172.36.184 - - [08/Dec/2025 14:06:16] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03N\x84AíkÀã¸½`ã[àÿÝ~\x04/\x82\x07¿\x92\x07Þ\x08Â\x9b\x99M\x89 \x16\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.172.36.184 - - [08/Dec/2025 14:06:33] code 400, message Bad request version ('À\x14À')
+167.172.36.184 - - [08/Dec/2025 14:07:11] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ï½F\x02Tª]oÓv\x09ÍÓ\\\x96+<±R\x8bd\x8fºP\x96`\x99U\x85½Áí\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.172.36.184 - - [08/Dec/2025 14:07:56] "GET / HTTP/1.1" 404 -
